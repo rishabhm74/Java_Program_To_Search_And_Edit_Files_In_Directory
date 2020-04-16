@@ -38,7 +38,7 @@ class prog{
         Scanner input = new Scanner(System.in);
         String filePath;
         filePath = args[0];
-        System.out.println("Entered path: " + filePath+"\n");
+        System.out.println("\nEntered path: " + filePath+"\n");
         //System.out.println(" ");
         //System.out.println("here");
         
