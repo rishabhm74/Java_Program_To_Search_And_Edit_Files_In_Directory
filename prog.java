@@ -68,7 +68,7 @@ class prog{
                 String pathReEnter = input.nextLine();
                 filePath = pathReEnter;
                 String newCommand = "java prog " + pathReEnter;
-                System.out.println(newCommand);
+                //System.out.println(newCommand);
                 //System.exit(0);
             }
         }
