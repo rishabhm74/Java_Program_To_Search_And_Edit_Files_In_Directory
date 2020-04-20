@@ -110,7 +110,7 @@ class prog{
                         BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
                         System.out.print("Enter message to be written on file: ");
                         dataToBeWritten = input.nextLine();
-                        bufferedWriter.newLine();
+                        //bufferedWriter.newLine();
                         bufferedWriter.write(dataToBeWritten);
                         bufferedWriter.close();
                         
